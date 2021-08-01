@@ -36,7 +36,7 @@ export default {
   data() {
     const diagramModel = new Diagram.Model();
 
-    const node1 = diagramModel.addNode("test2", 300, 200);
+    const node1 = diagramModel.addNode("testtube", 300, 200);
     const inPort = node1.addInPort("test");
 
     const node2 = diagramModel.addNode("test", 10, 300, 144, 80);
